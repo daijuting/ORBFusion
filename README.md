@@ -1,4 +1,4 @@
-# ORBFusion#
+# ORBFusion #
 
 This repository is for 'ORBFusion: Real-time and Accurate dense SLAM at large scale', which is capable of producing high quality globally consistent point and mesh reconstructions in real-time at large scale with RGB-D images.
 
@@ -27,7 +27,7 @@ If ORBFusion is helpful for your research, please consider citing :
 * [Pangolin](https://github.com/stevenlovegrove/Pangolin)
 * C++11 or C++0x Compiler
 
-#2: Test #
+# 2: Test #
 
 ### TUM Dataset
 
