@@ -33,7 +33,7 @@ If ORBFusion is helpful for your research, please consider citing :
 
 1. Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and create the corresponding `associations.txt` file, and put the file under the dataset directory.
 
-2. We provide a script `build.sh` to build the Thirdparty libraries needed and ORBFusion. Please make sure you have installed all required dependencies (section 1) and change the corresponding dataset address to your own in file `ORBFusion/src/MainControlle.cpp, Then execute:
+2. We provide a script `build.sh` to build the Thirdparty libraries needed and ORBFusion. Please make sure you have installed all required dependencies (section 1:Prerequisites) and change the corresponding dataset address to your own in file `ORBFusion/src/MainControlle.cpp, Then execute:
 ```
 cd ORBFusion
 chmod +x build.sh
