@@ -37,13 +37,14 @@ Viewer::Viewer(System* pSystem, FrameDrawer *pFrameDrawer, MapDrawer *pMapDrawer
 
 void Viewer::Run()
 {
-//    while(1)
-//    {
-//        cv::Mat im = mpFrameDrawer->DrawFrame();
-////        cv::imshow("ORB-SLAM2: Current Frame",im);
-////        cv::waitKey(mT);
-//        usleep(10000);
-//    }
+    while(1)
+    {
+        cv::Mat im = mpFrameDrawer->DrawFrame();
+//        cv::imshow("ORB-SLAM2: Current Frame",im);
+//        cv::waitKey(mT);
+        usleep(10000);
+        return;
+    }
 
 
     mbFinished = false;
